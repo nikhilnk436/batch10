@@ -2,6 +2,7 @@ node{
     
     def buildNumber = BUILD_NUMBER
     
+    
     stage('Git Checkout'){
         git 'https://github.com/nikhilnk436/batch10.git'
     }
